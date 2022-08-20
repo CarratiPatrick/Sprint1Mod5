@@ -11,7 +11,7 @@ const Card = ({ img, nome, texto, valor, desc, parc,ou }) => {
       <p>{texto}</p>
       <h4>De:{valor},00</h4>
       <h5>Por:{desc},00</h5>
-      <p>ou{parc}x de:{ou}</p>
+      <p>ou {parc}x de:{ou}</p>
       <Button texto="Comprar"/>
     </article>
   );
