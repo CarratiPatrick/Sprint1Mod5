@@ -2,33 +2,34 @@ import React from "react";
 import Button from "../Button/Button";
 import Input from "../Input/Input";
 import Label from "../Label/Label";
+import S from "./Form.module.css";
 
 const Form = () => {
   return (
-    <form>
-      <div>
+    <form className={S.form} >
+      <div className={S.area}>
         <Label texto="Seu nome:" />
         <Input type="text" />
       </div>
-      <div>
+      <div className={S.area}>
         <Label texto="E-mail:" />
         <Input type="email" />
       </div>
-      <div>
+      <div className={S.area}>
         <Label texto="CPF:" />
         <Input type="text" />
       </div>
-      <div>
-        <div>
-          <Input type="radio" nome="sexo" />
+      <div className={S.areaOpcao}>
+        <div className={S.opcao}>
+          <input type= "radio" nome="sexo" />
           <Label texto="Masculino" />
         </div>
         <div>
-          <Input type="radio" nome="sexo" />
+          <input type="radio"/>
           <Label texto="Feminino" />
         </div>
       </div>
-      <Button texto="Enviar"/>
+      <Button css={S.botaoForm} texto="Enviar"/>
     </form>
   );
 };

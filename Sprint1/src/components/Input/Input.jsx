@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Input = ({tipo,nome}) => {
+const Input = ({tipo,nome,css}) => {
   return (
-   <input type={tipo} name={nome}/>
+   <input className={css} type={tipo} name={nome}/>
   )
 }
 
