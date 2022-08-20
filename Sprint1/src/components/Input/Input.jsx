@@ -1,10 +1,8 @@
 import React from 'react'
 
-const Input = () => {
+const Input = ({tipo,nome}) => {
   return (
-    <div>
-      
-    </div>
+   <input type={tipo} name={nome}/>
   )
 }
 

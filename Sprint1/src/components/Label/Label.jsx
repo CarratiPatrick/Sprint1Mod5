@@ -1,10 +1,8 @@
 import React from 'react'
 
-const Label = () => {
+const Label = ({texto}) => {
   return (
-    <div>
-      
-    </div>
+   <label htmlFor='' >{texto}</label>
   )
 }
 
