@@ -2,11 +2,12 @@ import React from 'react'
 import Button from '../Button/Button'
 import Input from '../Input/Input'
 import Label from '../Label/Label'
+import S from './FormConvite.module.css'
 
 const FormConvite = () => {
   return (
-    <form>
-      <div>
+    <form className={S.form}>
+      <div className={S.conteiner}>
         <div>
         <Label texto= "Nome do seu amigo:"/>
         <Input type="texto"/>
@@ -16,7 +17,7 @@ const FormConvite = () => {
         <Input type="email"/>
         </div>
       </div>
-      <Button texto="Enviar agora"/>
+      <Button css={S.botao} texto="Enviar agora"/>
     </form>
   )
 }
