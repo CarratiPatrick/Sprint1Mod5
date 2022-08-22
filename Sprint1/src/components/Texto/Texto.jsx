@@ -1,10 +1,10 @@
 import React from 'react'
-
+import S from './Texto.module.css'
 const Texto = () => {
   return (
-    <div>
-    <h2>Ajude o algorítimo a ser mais certeiro</h2>
-      <p>
+    <div className={S.campo}>
+    <h2 className={S.h2}>Ajude o algorítimo a ser mais certeiro</h2>
+      <p className={S.texto}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         ultricies tellus nec mi porta convallis sollicitudin eu urna. Mauris
         rhoncus erat sed interdum dignissim. Suspendisse semper pretium
@@ -15,7 +15,7 @@ const Texto = () => {
         Vivamus et arcu non felis tristique eleifend.
       </p>
       <br/>
-      <p>
+      <p className={S.texto}>
       Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum
       ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed, egestas
       erat. Etiam ultricies a ante vehicula pharetra. Quisque ut neque mattis,

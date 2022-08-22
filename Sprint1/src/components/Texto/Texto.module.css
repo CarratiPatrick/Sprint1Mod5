@@ -1,0 +1,18 @@
+.campo{
+    width: 520px;
+    height: 220px;
+}
+
+.texto{
+    text-align: left;
+    font: normal normal normal 12px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+}
+
+.h2{ 
+    padding-bottom: 25px;
+    color: #888888;
+    opacity: 1; 
+}
