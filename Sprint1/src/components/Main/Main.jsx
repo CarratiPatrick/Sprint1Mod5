@@ -51,11 +51,11 @@ const Main = () => {
           );
         })}
       </section>
-      <Button onClick={proxPag} texto="Adquira mais produtos aqui"/>
+      <Button onClick={proxPag} css={S.bot}  texto="Adquira mais produtos aqui"/>
       </section>
       <section >
-      <div className={S.quartaSec}>
-      <h3>Compartilhe a novidade</h3>
+      <div className={S.segundaSec}>
+      <h3 >Compartilhe a novidade</h3>
       </div>
       <div>
       <p className={S.p}>Quer que seus amigos também ganhem a lista personalizada deles?

@@ -1,0 +1,25 @@
+.cartao{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 40px;
+    
+
+}
+.img{
+    width: 200px;
+    height: 150px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.botao{
+    width: 200px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}

@@ -1,10 +1,10 @@
 import React from "react";
 import Button from "../Button/Button";
-
+import S from "./Card.module.css";
 const Card = ({ img, nome, texto, valor, desc, parc,ou }) => {
   return (
-    <article>
-      <picture>
+    <article className={S.cartao}>
+      <picture className={S.img}>
         <img src={img} alt="produto" />
       </picture>
       <h3>{nome}</h3>
@@ -12,7 +12,7 @@ const Card = ({ img, nome, texto, valor, desc, parc,ou }) => {
       <h4>De:{valor},00</h4>
       <h5>Por:{desc},00</h5>
       <p>ou {parc}x de:{ou}</p>
-      <Button texto="Comprar"/>
+      <Button css ={S.botao}texto="Comprar"/>
     </article>
   );
 };
